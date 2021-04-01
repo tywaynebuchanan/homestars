@@ -71,73 +71,28 @@
 
 .info{
     position: absolute;
-    margin: 0 auto;
-    top: 20%;
-   left: 8%;
+    top: 25%;
+    left: 10%;
 }
 
-.container {
-    width: 1150px;
-    margin: 0 auto;
+@media (max-width: 737px)
+{
+    .show {
+        display:block;
+        position: fixed;
+        background-color: #EEF0F1;
+        width: 100%;
+        top: 100px;
+        left: 0;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+   }
+
+   .info{
     position: relative;
-    margin-bottom: 60px;
-    background-color: #282827;
-    border-radius: 10px;
-    height: 500px;
-
+    margin: 0 auto;
 }
 
-.banner__img{
-    width: 100%;
-    /* height: auto; */
-    border-radius: 10px;
-    object-fit:cover;
-}
 
-.info h1{
-    padding: 0px 10px;
-    font-size: 60px;
-    color:white;
-    margin-left: 40px;
-    margin-bottom: 0;
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center;
-    
-}
 
-.search {
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
-.button{
-   margin-left: 300px
-}
-
-input[type=text]{
-    padding: 20px 15px;
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-}
-input[type=text]:visited,input[type=text]:focus{
-    outline: none;
-}
-
-.btn{
-    background-color:  #ff6253;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 10px;
-    font-size: 20px;
-    font-weight:900;
-    width: 50%;
-    margin-top: 20px;
-   
-    
-}
-.btn:visited,.btn:focus{
-    outline: none;
 }
