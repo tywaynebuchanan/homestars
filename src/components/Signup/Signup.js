@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Signup.css'
 import {Link} from 'react-router-dom'
 import {FaCheckCircle} from 'react-icons/fa'
+
 
 const Signup = () => {
     return (
@@ -36,8 +37,8 @@ const Signup = () => {
                                     <label>I agree to the terms of the <Link to ='/'>Membership Agreement</Link></label>
                             </div>
 
-                            <div class="formfooter">
-                                <button class="btn" id="btn">Continue</button>
+                            <div className="formfooter">
+                                <button className="btn" id="btn">Continue</button>
                                 <p>Already have an account? <Link to ='/Login'>Sign In</Link></p>
                             </div>
                            

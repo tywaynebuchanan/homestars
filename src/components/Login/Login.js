@@ -2,9 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Login.css'
 import { FaCheckCircle } from 'react-icons/fa'
-
+import { fire } from '/Users/tywayne/NodeDev/homestars/src/util/firebase.js'
 
 const Login = () => {
+    
     return (
         <>
             <section className = "section">
@@ -27,7 +28,7 @@ const Login = () => {
                                 </div>
                            </div>
                            <div className="formfooter">
-                                <button type="button" className="btn" id="btn">Sign In</button>
+                                <button type="button" className="btn" id="btn" >Sign In</button>
                                 <div className="login">
                                     <span>< Link to ='/'>Send Sign In Link </Link></span> | <Link to ='/'>Forget Password</Link> | 
                                     <Link to ='/'>Don't have a Password</Link>
